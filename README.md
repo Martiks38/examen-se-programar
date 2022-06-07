@@ -33,7 +33,7 @@ Ale está haciendo un trabajo de investigación y nos pidió ayuda. Necesita pod
 
 let gus = {
 nick: "Wuisti",
-promedioPeliculasMensuales: 5.
+promedioPeliculasMensuales: 5,
 plataforma: "Netfix"
 }
 
@@ -41,8 +41,6 @@ Definir la función resumenDeInformación que nos permita obtener la informació
 
 resumenDeInformación(gus)
 "Está estimado que Wuisti verá 60 películas en un año con la plataforma Netfix"
-
----
 
 ## Ruby
 
