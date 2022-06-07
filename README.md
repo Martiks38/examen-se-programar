@@ -55,7 +55,7 @@ Definí la clase Camioneta que tenga un atributo @nafta con su getter. Los autos
 
 2. Ejercicio 2
 
-Los compilados son discos que tienen la característica de recopilar canciones que comparten alguna característica, por ejempli artista, época o género. Algunas de ellas con mayor duración que otras.
+Los compilados son discos que tienen la característica de recopilar canciones que comparten alguna característica, por ejemplo artista, época o género. Algunas de ellas con mayor duración que otras.
 Teniendo en cuenta que las canciones saben responder al mensaje titulo...
 
 Definí el método nombres_de_las_canciones que responda el nombre de las canciones del Disco.
