@@ -2,7 +2,7 @@
 
 Acontinuación, se enunciarán los ejercicios que tuve que resolver en el exámen de #SeProgramar en Mayo del 2022.
 
-## Globstone
+## Gobstones
 
 1. Ejercicio 1
 
@@ -27,8 +27,7 @@ Queremos crear un mezclador de palabras que reciba 2 palabras y un número. Si e
 
 3. Ejercicio 3
 
-Ale está haciendo un trabajo de investigación y nos pidió ayuda. Necesita poder sumar la cantidad de
-letras de las palabras cortas. Una palabra se considera corta si tiene 6 o menos letras. Definí la función sumaLetrasDePalabrasCortas.
+Ale está haciendo un trabajo de investigación y nos pidió ayuda. Necesita poder sumar la cantidad de letras de las palabras cortas. Una palabra se considera corta si tiene 6 o menos letras. Definí la función sumaLetrasDePalabrasCortas.
 
 4.  Los servicios de películas bajo demanda lograron despertar un interés renovado en la sociedad por el cine y las series. Es por ello que contamos registros de este estilo.
 
@@ -38,7 +37,7 @@ promedioPeliculasMensuales: 5.
 plataforma: "Netfix"
 }
 
-## Definir la función resumenDeInformación que nos permita obtener la información requerida. Por ejemplo:
+Definir la función resumenDeInformación que nos permita obtener la información requerida. Por ejemplo:
 
 resumenDeInformación(gus)
 "Está estimado que Wuisti verá 60 películas en un año con la plataforma Netfix"
