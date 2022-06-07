@@ -49,13 +49,13 @@ resumenDeInformación(gus)
 Modelar Camioneta para poder:
 
 - cargarle una cantidad de nafta determinada;
-- ver si tiene carga suficiente, es decir, si tiene más e 33 litros de nafta.
+- ver si tiene carga suficiente, es decir, si tiene más de 33 litros de nafta.
 
 Definí la clase Camioneta que tenga un atributo @nafta con su getter. Los autos entienden los mensajes cargar_combustible! (que recibe la cantidad a cargar por parámetro) y nafta_suficiente?. No te olvides de definir un initialize que reciba a la nafta inicial como parámetro.
 
 2. Ejercicio 2
 
-Los compilados son discos que tienen la característica de recopilar canciones que comparten alguna característica, por ejempli artista, época o género. Algunas de ellas con mayor duración que otras.
+Los compilados son discos que tienen la característica de recopilar canciones que comparten alguna característica, por ejemplo artista, época o género. Algunas de ellas con mayor duración que otras.
 Teniendo en cuenta que las canciones saben responder al mensaje titulo...
 
 Definí el método nombres_de_las_canciones que responda el nombre de las canciones del Disco.
