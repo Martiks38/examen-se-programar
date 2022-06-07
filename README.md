@@ -7,7 +7,7 @@ Acontinuación, se enunciarán los ejercicios que tuve que resolver en el exáme
 1. Ejercicio 1
 
 Es bastante sabido que para recordar dónde se esconde un tesoro hay que marcar el lugar.
-Una clásica opción para esto es utilizar una cruz-
+Una clásica opción para esto es utilizar una cruz.
 Créa un programa que dibuje una cruz de color Rojo. El cabezal empieza en el origin (o sea, en el borde Sur-Oeste) pero no te preocupes por dónde finaliza.
 
 2. Ejercicio 2
@@ -33,7 +33,7 @@ Ale está haciendo un trabajo de investigación y nos pidió ayuda. Necesita pod
 
 let gus = {
 nick: "Wuisti",
-promedioPeliculasMensuales: 5.
+promedioPeliculasMensuales: 5,
 plataforma: "Netfix"
 }
 
@@ -41,8 +41,6 @@ Definir la función resumenDeInformación que nos permita obtener la informació
 
 resumenDeInformación(gus)
 "Está estimado que Wuisti verá 60 películas en un año con la plataforma Netfix"
-
----
 
 ## Ruby
 
