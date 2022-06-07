@@ -2,7 +2,7 @@
 
 Acontinuación, se enunciarán los ejercicios que tuve que resolver en el exámen de #SeProgramar en Mayo del 2022.
 
-## Globstone
+## Gobstones
 
 1. Ejercicio 1
 

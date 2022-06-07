@@ -1,15 +1,19 @@
 /* Ejercicio 1 */
 
+/* Análisis */
+
 /*
-    En este ejercicio nos piden hacer una función que recibe tres números, o sea tres parámetros. Ha estos parámetos los llamaremos numero1, numero2 y numero3.
-    Además, nos dice que la función comparará si el resultado de la resta de los dos primeros ( los dos primeros parámetros ) es mayor al tercero  ( tercer parámetro ).
-    Con lo cual la función devolverá un valor booleano:
-      - true si: (numero1 - numero 2) es mayor a numero3
-      - false si: (numero1 - numero2) es menor a numero3
-    Esta lógica queda representada en la siguiente expresión:
-    numero1 - numero2 > numero3
+  - Crear una función que reciba 3 números
+    La función recibe tres parámetros que son números. Los nombres que le daré a estos son number1, number2 y number3.
+  - ... nos diga si la resta entre los dos primeros es mayor al tercero.
+    Esto quiere decir que si la resta entre number1 y number2 es mayor a number3 la respuesta es true. En caso contrario, la respuesta será false.
+    Esto lo podemos resumir en la siguiente expresión: 
+      number1 - number2 > number3
+    Si la comparación se verifica el resultado es true si no es false.
+  - Definí la función "esMayorLaResta".
+    El nombre de la función debe ser esMayorLaResta
 */
 
-function esMayorLaResta(numero1, numero2, numero3) {
-  return numero1 - numero2 > numero3
+function esMayorLaResta(number1, number2, number3) {
+  return number1 - number2 > number3
 }
