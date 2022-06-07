@@ -1,0 +1,138 @@
+Ejercicio 1
+
+Análisis
+
+  Es bastante sabido que para recordar dónde se esconde un tesoro hay que marcar el lugar.
+  Una clásica opción para esto es utilizar una cruz.
+    El color de las bolas debe ser Rojo.
+    La cruz tiene forma de "x".
+
+  Créa un programa que dibuje una cruz de color Rojo. 
+    Para crear un programa se debe usar la palabra reservada "program".
+    Para poner una bola de color Rojo se debe usar el procedimiento Poner(color) y para moverse en el tablero se debe usar el procedimiento Mover(direccion).
+    La cruz entra en una cuadrícula de 3x3.
+    Podemos comenzar haciendo la fila o la columna y esta es igual a la del otro extremo por lo que puede definirse un procedimiento que haga esto o directamente hacerlo sin el.
+  
+  El cabezal empieza en el origin (o sea, en el borde Sur-Oeste) pero no te preocupes por dónde finaliza.
+    El cabeza de inicio esta establecido en el borde inferior izquierdo del tablero y podemos dejar el puntero en cualquier lugar dentro del mismo tablero.
+
+Resultados
+
+Completando columna
+  - Sin definir procedimiento
+
+  program{
+    Poner(Rojo)
+    Mover(Norte)
+    Mover(Norte)
+    Poner(Rojo)
+    Mover(Este)
+    Mover(Sur)
+    Poner(Rojo)
+    Mover(Sur)
+    Mover(Este)
+    Poner(Rojo)
+    Mover(Norte)
+    Mover(Norte)
+    Poner(Rojo)
+  }
+
+  - Definiendo procedimiento
+  
+  procedure CompletarColumna(){
+    Poner(Rojo)
+    Mover(Norte)
+    Mover(Norte)
+    Poner(Rojo)
+  }
+
+  program{
+    CompletarColumna()
+    Mover(Este)
+    Mover(Sur)
+    Poner(Rojo)
+    Mover(Sur)
+    Mover(Este)
+    CompletarColumna()
+  }
+
+  - Podemos usar repeat para las instrucciones que se repiten
+  
+  procedure CompletarColumna(){
+    Poner(Rojo)
+    repeat(2){
+      Mover(Norte)
+    }
+    Poner(Rojo)
+  }
+
+  program{
+    CompletarColumna()
+    Mover(Este)
+    Mover(Sur)
+    Poner(Rojo)
+    Mover(Sur)
+    Mover(Este)
+    CompletarColumna()
+  }
+
+Completando fila
+
+  - Sin definir procedimiento
+
+  program{
+    Poner(Rojo)
+    Mover(Este)
+    Mover(Este)
+    Poner(Rojo)
+    Mover(Norte)
+    Mover(Oeste)
+    Poner(Rojo)
+    Mover(Oeste)
+    Mover(Norte)
+    Poner(Rojo)
+    Mover(Este)
+    Mover(Este)
+    Poner(Rojo)
+  }
+
+  - Definiendo procedimiento
+  
+  procedure CompletarFila(){
+    Poner(Rojo)
+    Mover(Este)
+    Mover(Este)
+    Poner(Rojo)
+  }
+
+  program{
+    CompletarFila()
+    Mover(Norte)
+    Mover(Oeste)
+    Poner(Rojo)
+    Mover(Oeste)
+    Mover(Norte)
+    CompletarFila()
+  }
+
+  - Podemos usar repeat para las instrucciones que se repiten
+  
+  procedure CompletarFila(){
+    Poner(Rojo)
+    repeat(2){
+      Mover(Este)
+    }
+    Poner(Rojo)
+  }
+
+  program{
+    CompletarFila()
+    Mover(Norte)
+    Mover(Oeste)
+    Poner(Rojo)
+    Mover(Oeste)
+    Mover(Norte)
+    CompletarFila()
+  }
+
+Hay otras formas de resolverlo aún.
