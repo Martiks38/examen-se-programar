@@ -1,0 +1,129 @@
+Ejercicio 2
+
+Análisis
+  - En el ejercicio anterior hicimos una cruz de un color específico porque es lo que solemos ver en películas o libros pero ¿qué nos impide que hagamos una cruz de cualquier color para marcar un lugar?
+  Definí el procedimiento HacerCruz para que dibuje una cruz con el color que reciba por parámetro.
+    Usando el código realizado en el ejercicio anterior debemos definir el procedimiento llamado HacerCruz que recibirá el color de la cruz como parámetro el cual llamaré colorCruz.
+    En el caso de usar el procedimiento, HacerColumna, definido en el anterior ejercicio. Este también tendrá que recibir como parámetro el color de la cruz.
+    Para definir un procedimiento se debe usar la palabra reservada "procedure".
+
+Resultados
+  
+Haciendo por columna
+  - Sin definir procedimiento
+
+  procedure HacerCruz(colorCruz){
+    Poner(colorCruz)
+    Mover(Norte)
+    Mover(Norte)
+    Poner(colorCruz)
+    Mover(Este)
+    Mover(Sur)
+    Poner(colorCruz)
+    Mover(Sur)
+    Mover(Este)
+    Poner(colorCruz)
+    Mover(Norte)
+    Mover(Norte)
+    Poner(colorCruz)
+  }
+
+  - Definiendo procedimiento
+  
+  procedure HacerColumna(colorCruz){
+    Poner(colorCruz)
+    Mover(Norte)
+    Mover(Norte)
+    Poner(colorCruz)
+  }
+
+  procedure HacerCruz(colorCruz){
+    HacerColumna()
+    Mover(Este)
+    Mover(Sur)
+    Poner(colorCruz)
+    Mover(Sur)
+    Mover(Este)
+    HacerColumna()
+  }
+
+  - Podemos usar repeat para las instrucciones que se repiten
+  
+  procedure HacerColumna(){
+    Poner(colorCruz)
+    repeat(2){
+      Mover(Norte)
+    }
+    Poner(colorCruz)
+  }
+
+  procedure HacerCruz(colorCruz){
+    HacerColumna()
+    Mover(Este)
+    Mover(Sur)
+    Poner(colorCruz)
+    Mover(Sur)
+    Mover(Este)
+    HacerColumna()
+  }
+
+Haciendo por fila
+
+  - Sin definir procedimiento
+
+  procedure HacerCruz(colorCruz){
+    Poner(colorCruz)
+    Mover(Este)
+    Mover(Este)
+    Poner(colorCruz)
+    Mover(Norte)
+    Mover(Oeste)
+    Poner(colorCruz)
+    Mover(Oeste)
+    Mover(Norte)
+    Poner(colorCruz)
+    Mover(Este)
+    Mover(Este)
+    Poner(colorCruz)
+  }
+
+  - Definiendo procedimiento
+  
+  procedure HacerFila(){
+    Poner(colorCruz)
+    Mover(Este)
+    Mover(Este)
+    Poner(colorCruz)
+  }
+
+  procedure HacerCruz(colorCruz){
+    HacerFila()
+    Mover(Norte)
+    Mover(Oeste)
+    Poner(colorCruz)
+    Mover(Oeste)
+    Mover(Norte)
+    HacerFila()
+  }
+
+  - Podemos usar repeat para las instrucciones que se repiten
+  
+  procedure HacerFila(){
+    Poner(colorCruz)
+    repeat(2){
+      Mover(Este)
+    }
+    Poner(colorCruz)
+  }
+
+  procedure HacerColumna(colorCruz){
+    HacerFila()
+    Mover(Norte)
+    Mover(Oeste)
+    Poner(colorCruz)
+    Mover(Oeste)
+    Mover(Norte)
+    HacerFila()
+  }
+
+Hay otras formas de resolverlo aún.

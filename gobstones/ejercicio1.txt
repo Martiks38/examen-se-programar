@@ -18,7 +18,7 @@ Análisis
 
 Resultados
 
-Completando columna
+Haciendo por columna
   - Sin definir procedimiento
 
   program{
@@ -39,7 +39,7 @@ Completando columna
 
   - Definiendo procedimiento
   
-  procedure CompletarColumna(){
+  procedure HacerColumna(){
     Poner(Rojo)
     Mover(Norte)
     Mover(Norte)
@@ -47,18 +47,18 @@ Completando columna
   }
 
   program{
-    CompletarColumna()
+    HacerColumna()
     Mover(Este)
     Mover(Sur)
     Poner(Rojo)
     Mover(Sur)
     Mover(Este)
-    CompletarColumna()
+    HacerColumna()
   }
 
   - Podemos usar repeat para las instrucciones que se repiten
   
-  procedure CompletarColumna(){
+  procedure HacerColumna(){
     Poner(Rojo)
     repeat(2){
       Mover(Norte)
@@ -67,16 +67,16 @@ Completando columna
   }
 
   program{
-    CompletarColumna()
+    HacerColumna()
     Mover(Este)
     Mover(Sur)
     Poner(Rojo)
     Mover(Sur)
     Mover(Este)
-    CompletarColumna()
+    HacerColumna()
   }
 
-Completando fila
+Haciendo por fila
 
   - Sin definir procedimiento
 
@@ -98,7 +98,7 @@ Completando fila
 
   - Definiendo procedimiento
   
-  procedure CompletarFila(){
+  procedure HacerFila(){
     Poner(Rojo)
     Mover(Este)
     Mover(Este)
@@ -106,18 +106,18 @@ Completando fila
   }
 
   program{
-    CompletarFila()
+    HacerFila()
     Mover(Norte)
     Mover(Oeste)
     Poner(Rojo)
     Mover(Oeste)
     Mover(Norte)
-    CompletarFila()
+    HacerFila()
   }
 
   - Podemos usar repeat para las instrucciones que se repiten
   
-  procedure CompletarFila(){
+  procedure HacerFila(){
     Poner(Rojo)
     repeat(2){
       Mover(Este)
@@ -126,13 +126,13 @@ Completando fila
   }
 
   program{
-    CompletarFila()
+    HacerFila()
     Mover(Norte)
     Mover(Oeste)
     Poner(Rojo)
     Mover(Oeste)
     Mover(Norte)
-    CompletarFila()
+    HacerFila()
   }
 
 Hay otras formas de resolverlo aún.
