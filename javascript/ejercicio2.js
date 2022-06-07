@@ -39,14 +39,14 @@ function mezclarPalabras(word1, word2, number) {
   Otra forma de verificar si number es menor o igual que 6 es analizar si number es menor que 7.
 
     - caso if/else: 
-    if(number > 6){
-      retund word2 + word1
-    }else{
-      return word1 + word2
-    }
+      if(number < 7){
+        return word1 + word2
+      }else{
+        retund word2 + word1
+      }
     
     - caso operador ternario
-      return number > 6 ? word2 + word1 : word1 + word2
+      return number < 7 ? word1 + word2 : word2 + word1
 
   Y otra es analizando si number es mayor a 6 por lo que las funciones quedarían:
 
