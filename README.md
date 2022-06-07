@@ -38,7 +38,7 @@ promedioPeliculasMensuales: 5.
 plataforma: "Netfix"
 }
 
-## Definir la función resumenDeInformación que nos permita obtener la información requerida. Por ejemplo:
+Definir la función resumenDeInformación que nos permita obtener la información requerida. Por ejemplo:
 
 resumenDeInformación(gus)
 "Está estimado que Wuisti verá 60 películas en un año con la plataforma Netfix"
