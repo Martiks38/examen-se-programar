@@ -70,6 +70,10 @@ class Pianista
     @indice_de_coordinacion = indice_de_coordinacion
   end
 
+  def indice_de_coordinacion
+    @indice_de_coordinacion
+  end
+  
   def tocar!
     @indice_de_coordinacion += 19
   end
