@@ -74,6 +74,8 @@ function sumaLetrasDePalabrasCortas(words) {
   Las arrow function son una alternativa a la definición tradicional de una función pero estas presentan limitaciones. Su sintaxis es (parámetros) => {instrucciones}
   Ejemplo de una función normal y una arrow function.
   
+  Pasar una función nombrada a arrow function
+  
   function
   function sumar(number1, number2){
     return number1 + number2
