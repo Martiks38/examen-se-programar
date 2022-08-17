@@ -21,4 +21,5 @@ module Disco
 
   def self.nombres_de_las_canciones
     @canciones.map { |cancion| cancion.titulo}
+  end
 end
