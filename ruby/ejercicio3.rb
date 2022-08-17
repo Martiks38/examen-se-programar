@@ -48,11 +48,12 @@ class Banda
 
   def tocar!
     @integrantes.each { | integrante | integrante.tocar!}
+  end
 end
 
 class Violinista
   def initialize (numero_cuerdas)
-    @cuerdas = cuerdas
+    @cuerdas = numero_cuerdas
   end
 
   def cuerdas
