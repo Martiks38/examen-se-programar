@@ -107,6 +107,7 @@ function sumaLetrasDePalabrasCortas(words) {
   return cantidadLetrasPalabrasCortas
 }
 
+// Arrow function
 function sumaLetrasDePalabrasCortas(words) {
   let cantidadLetrasPalabrasCortas = 0
 
